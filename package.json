@@ -9,19 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@hello-pangea/dnd": "^16.3.0",
+    "@heroicons/react": "^2.0.18",
+    "appwrite": "^13.0.0",
+    "next": "latest",
+    "openai": "^4.11.0",
     "react": "latest",
+    "react-avatar": "^5.0.3",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "latest",
-    "next": "latest"
+    "sharp": "^0.32.6",
+    "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-beautiful-dnd": "^13.1.5",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest"
+    "typescript": "latest"
   }
 }
